@@ -51,3 +51,44 @@ public:
         return dummy->next;
     }
 };
+
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+
+struct cmp{
+    bool operator()(ListNode* a, ListNode* b){
+        return (a->val) > (b->val);
+    }
+};
+
+// 使用优先队列(小顶堆实现)
+class Solution {
+public:
+    ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
+        priority_queue<ListNode*, vector<ListNode*>, cmp> q;
+        if(l1 != nullptr) q.push(l1);
+        if(l2 != nullptr) q.push(l2);
+        
+        ListNode* dummy = new ListNode(-1);
+        ListNode* current = dummy;
+        
+        while(!q.empty()){
+            ListNode* tmp = q.top();
+            q.pop();
+            current->next = tmp;
+            if(tmp->next != nullptr){
+                q.push(tmp->next);
+            }
+            current = current->next;
+        }
+        return dummy->next;
+    }
+};
