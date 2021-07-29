@@ -181,83 +181,86 @@
 * Data Structure
     * <span id=ms>map and set</span>
         * [LeetCode981.cpp Time Based Key-Value Store  unordered_multimap is time limited, but map is accepted](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode981.cpp)
-		* [LeetCode287.cpp Find the Duplicate Number AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode287.cpp)
-		* [LeetCode414.cpp Third Maximum Number unordered_map + priority_queue  O(n)  AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode414.cpp)
-		* [LeetCode1089.cpp Duplicate Zeros AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode1089.cpp)
-		* [LeetCode239.cpp Sliding Window Maximum  AC  multiset](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode239.cpp)
-		* [LeetCode480.cpp Sliding Window Median  AC multiset](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode480.cpp)
-		* [LeetCode540.cpp Single Element in a Sorted Array AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode540.cpp)
-		* [LeetCode350.cpp Intersection of Two Arrays II  Hashtable  O(n)  AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode350.cpp)
-		* [LeetCode217.cpp Contains Duplicate AC hash table 去重](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode217.cpp)
-		* [SimulateHashTable.cpp 拉链法解决冲突](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/SimulateHashTable.cpp)
-		* [SimulateHashTable.cpp 开放寻址法解决冲突](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/SimulateHashTable.cpp)
-		* **priority_queue and map/set can exchange at the solving min/max problem.**
-	* <span  id=trie>Trie</span>
-	    * [LeetCode208.cpp  Implement Trie (Prefix Tree) AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode208.cpp)
+    	* [LeetCode287.cpp Find the Duplicate Number AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode287.cpp)
+    	* [LeetCode414.cpp Third Maximum Number unordered_map + priority_queue  O(n)  AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode414.cpp)
+    	* [LeetCode1089.cpp Duplicate Zeros AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode1089.cpp)
+    	* [LeetCode239.cpp Sliding Window Maximum  AC  multiset](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode239.cpp)
+    	* [LeetCode480.cpp Sliding Window Median  AC multiset](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode480.cpp)
+    	* [LeetCode540.cpp Single Element in a Sorted Array AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode540.cpp)
+    	* [LeetCode350.cpp Intersection of Two Arrays II  Hashtable  O(n)  AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode350.cpp)
+    	* [LeetCode217.cpp Contains Duplicate AC hash table 去重](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode217.cpp)
+    	* [SimulateHashTable.cpp 拉链法解决冲突](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/SimulateHashTable.cpp)
+    	* [SimulateHashTable.cpp 开放寻址法解决冲突](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/SimulateHashTable.cpp)
+    	* **priority_queue and map/set can exchange at the solving min/max problem.**
+    * <span  id=trie>Trie</span>
+        * [LeetCode208.cpp  Implement Trie (Prefix Tree) AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode208.cpp)
         * [LeetCode211.cpp Add and Search Word - Data structure design AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode211.cpp)
-		* [HDUOJ1251.cpp AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/HDUOJ1251.cpp)
-		* [HDUOJ2072.cpp AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/HDUOJ2072.cpp)
-		* [LeetCode421.cpp AC Trie非常好的题目，如何将整数存储在trie中](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode421.cpp)
-	* <span id=heap>priority_queue</span>
-	    * [LeetCode658.cpp Find K Closest Elements AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode658.cpp)
-		* [LeetCode703.cpp Kth Largest Element in a Stream AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode703.cpp)
+    	* [HDUOJ1251.cpp AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/HDUOJ1251.cpp)
+    	* [HDUOJ2072.cpp AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/HDUOJ2072.cpp)
+    	* [LeetCode421.cpp AC Trie非常好的题目，如何将整数存储在trie中](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode421.cpp)
+    * <span id=heap>priority_queue</span>
+        * [LeetCode658.cpp Find K Closest Elements AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode658.cpp)
+    	* [LeetCode703.cpp Kth Largest Element in a Stream AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode703.cpp)
         * [LeetCode973.cpp K Closest Points to Origin AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode973.cpp)
-		* [LeetCode692.cpp Top K Frequent Words  AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode692.cpp)
-		* [LeetCode347.cpp Top K Frequent Elements AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode347.cpp)
-		* [LeetCode451.cpp Sort Characters By Frequency AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode451.cpp)
-		* [LeetCode215.cpp Kth Largest Element in an Array O(n+k*logn)   AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode215.cpp)
-		* [LeetCode414.cpp Third Maximum Number unordered_map + priority_queue  O(n)  AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode414.cpp)
-		* [LeetCode378.cpp Kth Smallest Element in a Sorted Matrix   AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode378.cpp)
-		* [LeetCode136.cpp Single Number AC hash table](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode136.cpp)
-		* [LeetCode260.cpp Single Number III AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode260.cpp)
-		* [LeetCode387.cpp First Unique Character in a String AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode387.cpp)
-		* [**LeetCode23.cpp Merge k Sorted Lists O(nlogk)   AC**](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode23.cpp)
-		* [LeetCode1046.cpp Last Stone Weight AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode1046.cpp)
-		* [dijkstra_heap.cpp](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/dijkstra_heap.cpp)
-	* <span id=q>queue</span>
-		* [SimulateQueue.cpp](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/SimulateQueue.cpp)
-		* [LeetCode102.cpp Binary Tree Level Order Traversal  AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode102.cpp)
-		* [LeetCode107.cpp Binary Tree Level Order Traversal II AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode107.cpp)
-		* [LeetCode637.cpp Average of Levels in Binary Tree AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode637.cpp)
-		* [LeetCode429.cpp N-ary Tree Level Order Traversal AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode429.cpp)
-		* **monotonous queue**
-			* [LeetCode239.cpp Sliding Window Maximum  AC  monotonous stack](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode239.cpp)
-			* [JZ64.cpp](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/JZ64.cpp)
-			* [NowCoder1006D.cpp](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/NowCoder1006D.cpp)
-		* all solutions **level order traversal of tree + queue** 
-		* deque
-	* <span id=ll>Linked List<span>
-	    * [SimulateLinkedList.cpp AC  UVa Data Structure](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/SimulateLinkedList.cpp)
-			* [SimulateDoubleLinkedList.cpp AC  UVa Data Structure](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/SimulateDoubleLinkedList.cpp)
-		* [LeetCode21.cpp Merge Two Sorted Lists AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode21.cpp) 
-		* [LeetCode24.cpp Swap Nodes in Pairs AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode24.cpp)
-		* [LeetCode25.cpp Reverse Nodes in k-Group AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode25.cpp)
-		* [LeetCode66.cpp  Plus One AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode66.cpp)
-		* [LeetCode148.cpp sort list AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode148.cpp)
-		* [LeetCode206.cpp Reverse Linked List AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode206.cpp)
-		* [LeetCode92.cpp Reverse Linked List II AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode92.cpp)
-		* [LeetCode203.cpp Remove Linked List Elements AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode203.cpp)
-		* [LeetCode19.cpp Remove Nth Node From End of List O(2n) two pass algorithms   AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode19.cpp)
-		* [LeetCode147.cpp Insertion Sort List AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode147.cpp)
-		* [LeetCode445.cpp Add Two Numbers II AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode445.cpp)
-		* [LeetCode83.cpp Remove Duplicates from Sorted List AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode83.cpp)
-		    * [LeetCode82.cpp Remove Duplicates from Sorted List II AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode82.cpp)
-		* <span id=lrufu>LRU/LFU</span>
-			* [LeetCode146.cpp LRU Cache](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode146.cpp)
-	* stack
-		* [SimulateStack.cpp](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/SimulateStack.cpp)
-		* [LeetCode20.cpp Valid Parentheses AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode20.cpp)
-		* <span id=st>monotonous stack</span>
-			* [LeetCode496.cpp Next Greater Element I  AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode496.cpp)
-			* [LeetCode503.cpp Next Greater Element II  AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode503.cpp)
-			* [LeetCode739.cpp Daily Temperatures AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode739.cpp)
-			* [LeetCode1019.cpp Next Greater Node In Linked List AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode1019.cpp)
-	* <span id=uf>union find</span>
-		* [LeetCode128.cpp Longest Consecutive Sequence  AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode128.cpp)
-		* [LeetCodeUnionFind.cpp  LeetCode并查集模板，带路径压缩](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCodeUnionFind.cpp)
-		* [HDUOJ1213.cpp AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/HDUOJ1213.cpp)
-		* [POJ1611.cpp](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/POJ1611.cpp)
-		* [POJ2236.cpp](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/POJ2236.cpp)
+    	* [LeetCode692.cpp Top K Frequent Words  AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode692.cpp)
+    	* [LeetCode347.cpp Top K Frequent Elements AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode347.cpp)
+    	* [LeetCode451.cpp Sort Characters By Frequency AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode451.cpp)
+    	* [LeetCode215.cpp Kth Largest Element in an Array O(n+k*logn)   AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode215.cpp)
+    	* [LeetCode414.cpp Third Maximum Number unordered_map + priority_queue  O(n)  AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode414.cpp)
+    	* [LeetCode378.cpp Kth Smallest Element in a Sorted Matrix   AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode378.cpp)
+    	* [LeetCode136.cpp Single Number AC hash table](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode136.cpp)
+    	* [LeetCode260.cpp Single Number III AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode260.cpp)
+    	* [LeetCode387.cpp First Unique Character in a String AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode387.cpp)
+    	* [**LeetCode23.cpp Merge k Sorted Lists O(nlogk)   AC**](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode23.cpp)
+    	* [LeetCode1046.cpp Last Stone Weight AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode1046.cpp)
+    	* [dijkstra_heap.cpp](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/dijkstra_heap.cpp)
+    * <span id=q>queue</span>
+    	* [SimulateQueue.cpp](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/SimulateQueue.cpp)
+    	* [LeetCode102.cpp Binary Tree Level Order Traversal  AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode102.cpp)
+    	* [LeetCode107.cpp Binary Tree Level Order Traversal II AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode107.cpp)
+    	* [LeetCode637.cpp Average of Levels in Binary Tree AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode637.cpp)
+    	* [LeetCode429.cpp N-ary Tree Level Order Traversal AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode429.cpp)
+    	* **monotonous queue**
+    		* [LeetCode239.cpp Sliding Window Maximum  AC  monotonous stack](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode239.cpp)
+    		* [JZ64.cpp](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/JZ64.cpp)
+    		* [NowCoder1006D.cpp](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/NowCoder1006D.cpp)
+    	* all solutions **level order traversal of tree + queue** 
+    	* deque
+    * <span id=ll>Linked List<span>
+        * [SimulateLinkedList.cpp AC  UVa Data Structure](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/SimulateLinkedList.cpp)
+    		* [SimulateDoubleLinkedList.cpp AC  UVa Data Structure](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/SimulateDoubleLinkedList.cpp)
+    	* [LeetCode21.cpp Merge Two Sorted Lists AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode21.cpp) 
+    	* [LeetCode24.cpp Swap Nodes in Pairs AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode24.cpp)
+    	* [LeetCode25.cpp Reverse Nodes in k-Group AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode25.cpp)
+    	* [LeetCode66.cpp  Plus One AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode66.cpp)
+    	* [LeetCode148.cpp sort list AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode148.cpp)
+    	* [LeetCode206.cpp Reverse Linked List AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode206.cpp)
+    	* [LeetCode92.cpp Reverse Linked List II AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode92.cpp)
+    	* [LeetCode203.cpp Remove Linked List Elements AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode203.cpp)
+    	* [LeetCode19.cpp Remove Nth Node From End of List O(2n) two pass algorithms   AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode19.cpp)
+    	* [LeetCode147.cpp Insertion Sort List AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode147.cpp)
+    	* [LeetCode445.cpp Add Two Numbers II AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode445.cpp)
+    	* [LeetCode83.cpp Remove Duplicates from Sorted List AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode83.cpp)
+    	    * [LeetCode82.cpp Remove Duplicates from Sorted List II AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode82.cpp)
+		* [LeetCode707.cpp Design Linked List AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode707.cpp)
+		
+    	* <span id=lrufu>LRU/LFU</span>
+    		* [LeetCode146.cpp LRU Cache](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode146.cpp)
+    * stack
+      * [SimulateStack.cpp](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/SimulateStack.cpp)
+      * [LeetCode20.cpp Valid Parentheses AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode20.cpp)
+      * [LeetCode155.cpp Min Stack AC  数组+两个小顶堆实现](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode155.cpp)
+      * <span id=st>monotonous stack</span>
+      	* [LeetCode496.cpp Next Greater Element I  AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode496.cpp)
+      	* [LeetCode503.cpp Next Greater Element II  AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode503.cpp)
+      	* [LeetCode739.cpp Daily Temperatures AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode739.cpp)
+      	* [LeetCode1019.cpp Next Greater Node In Linked List AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode1019.cpp)
+    * <span id=uf>union find</span>
+    	* [LeetCode128.cpp Longest Consecutive Sequence  AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode128.cpp)
+    	* [LeetCodeUnionFind.cpp  LeetCode并查集模板，带路径压缩](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCodeUnionFind.cpp)
+    	* [HDUOJ1213.cpp AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/HDUOJ1213.cpp)
+    	* [POJ1611.cpp](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/POJ1611.cpp)
+    	* [POJ2236.cpp](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/POJ2236.cpp)
 * <span id=bs>Binary Search</span>
     * [**LeetCode704.cpp Binary Search AC** ](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode704.cpp)
 	* [**LeetCode33.cpp Search in Rotated Sorted Array AC(binary search)**](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode33.cpp) 这四道题目其实延伸出很多题目，比如如何在Rotated Sorted Array中找到最小元素的下标并返回？
@@ -373,7 +376,6 @@
 		* 最大可行流 (简称最大流，定义参加算法导论中流网络部分)
 			* [EK]()
 			* [Dinic/ISAP]()
-	
 |最短路径类型   | 算法 | 时间复杂度     |算法类型|
 | :----------: | :-----------:  | :-----------: |:-----------:|
 | 边权均为正，单源最短路径，稠密图     | 朴素dijkstra   | O(n^2)  |贪心|
@@ -571,7 +573,6 @@
 		* [LeetCode17.cpp Letter Combinations of a Phone Number  AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode17.cpp)
 		* [POJ3984.cpp AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/POJ3984.cpp)
 		* [LeetCode1091.cpp AC Shortest Path in Binary Matrix](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode1091.cpp)
-		
 
 |method   | extra space | priorities     |Data Structure|
 | :----------: | :-----------:  | :-----------: |:-----------:|
