@@ -226,11 +226,13 @@
     		* [NowCoder1006D.cpp](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/NowCoder1006D.cpp)
     	* all solutions **level order traversal of tree + queue** 
     	* deque
-    * <span id=ll>Linked List<span>
+    * <span id=ll>Linked List</span>
         * [SimulateLinkedList.cpp AC  UVa Data Structure](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/SimulateLinkedList.cpp)
     		* [SimulateDoubleLinkedList.cpp AC  UVa Data Structure](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/SimulateDoubleLinkedList.cpp)
     	* [LeetCode21.cpp Merge Two Sorted Lists AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode21.cpp) 
     	* [LeetCode24.cpp Swap Nodes in Pairs AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode24.cpp)
+    	* [LeetCode460.cpp Flatten a Multilevel Doubly Linked List AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode460.cpp)
+		* [LeetCOde82.cpp Remove Duplicates from Sorted List II AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode82.cpp)
     	* [LeetCode25.cpp Reverse Nodes in k-Group AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode25.cpp)
     	* [LeetCode66.cpp  Plus One AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode66.cpp)
     	* [LeetCode148.cpp sort list AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode148.cpp)
@@ -241,9 +243,8 @@
     	* [LeetCode147.cpp Insertion Sort List AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode147.cpp)
     	* [LeetCode445.cpp Add Two Numbers II AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode445.cpp)
     	* [LeetCode83.cpp Remove Duplicates from Sorted List AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode83.cpp)
-    	    * [LeetCode82.cpp Remove Duplicates from Sorted List II AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode82.cpp)
+		    * [LeetCode82.cpp Remove Duplicates from Sorted List II AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode82.cpp)
 		* [LeetCode707.cpp Design Linked List AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode707.cpp)
-		
     	* <span id=lrufu>LRU/LFU</span>
     		* [LeetCode146.cpp LRU Cache](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode146.cpp)
     * stack
