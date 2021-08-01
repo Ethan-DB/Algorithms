@@ -232,7 +232,6 @@
     	* [LeetCode21.cpp Merge Two Sorted Lists AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode21.cpp) 
     	* [LeetCode24.cpp Swap Nodes in Pairs AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode24.cpp)
     	* [LeetCode460.cpp Flatten a Multilevel Doubly Linked List AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode460.cpp)
-		* [LeetCOde82.cpp Remove Duplicates from Sorted List II AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode82.cpp)
     	* [LeetCode25.cpp Reverse Nodes in k-Group AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode25.cpp)
     	* [LeetCode66.cpp  Plus One AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode66.cpp)
     	* [LeetCode148.cpp sort list AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode148.cpp)
