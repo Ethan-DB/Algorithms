@@ -83,3 +83,157 @@ public:
         return dummy->next;
     }
 };
+
+
+//解法二简化版代码
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+class Solution {
+public:
+    ListNode* insertionSortList(ListNode* head) {
+        if(head == nullptr) return nullptr;  
+        ListNode* dummy = new ListNode(INT_MIN); //结果链表
+        dummy->next = new ListNode(head->val); 
+        head = head->next;
+        while(head){
+            ListNode* before = dummy;  //从头遍历找到合适的位置
+            ListNode* after = before->next;
+            
+            while(after){
+                if(head->val <= after->val){
+                    ListNode* tmp = new ListNode(head->val);
+                    tmp->next = after;
+                    before->next = tmp;  
+                    break;
+                }else{
+                    before = after;
+                    after = before->next;
+                }
+            }
+            //否则直接插入到before节点之后
+            if(after == nullptr){
+                ListNode* tmp = new ListNode(head->val);
+                before->next = tmp;
+            }
+                
+            head = head->next;
+        }
+        return dummy->next;
+    }
+};
+
+
+// 解法三的简化代码
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+
+class Solution {
+public:
+    ListNode* before;//从头遍历找到合适的位置
+    ListNode* insertionSortList(ListNode* head) {
+        if(head == nullptr) return nullptr;  
+        ListNode* dummy = new ListNode(INT_MIN, new ListNode(head->val)); //结果链表
+        head = head->next;
+        while(head){
+            before = dummy;
+            while(before->next){
+                if(head->val <= before->next->val){
+                    before->next = new ListNode(head->val, before->next);  
+                    break;
+                }
+                before = before->next;
+            }
+            //否则直接插入到before节点之后
+            if(before->next == nullptr){
+                before->next = new ListNode(head->val);
+            }
+                
+            head = head->next;
+        }
+        return dummy->next;
+    }
+};
+
+
+//解法四：链表插入排序的终极解法，分别对直接在（1）链表头部（第199行if语句）；（2）链表尾部插入做了优化（第208行if语句）。
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+
+class Solution {
+public:
+    ListNode* before;//从头遍历找到合适的位置
+    ListNode* last;  //记录最后一个指针
+    int maxElement;  //记录一下最大值
+    ListNode* insertionSortList(ListNode* head) {
+        if(head == nullptr) return nullptr;  
+        ListNode* dummy = new ListNode(INT_MIN, new ListNode(head->val)); //结果链表
+        head = head->next;
+        while(head){
+            before = dummy;
+            
+            //直接在头部插入
+            if(head->val <= dummy->next->val){
+                ListNode* tmp = new ListNode(head->val, dummy->next);
+                dummy->next = tmp;
+                head = head->next;
+                continue;
+            }
+            
+            //浪费一些空间记录尾部指针，并且用max记录当前的最大值，如果新插入值head->val大于当前
+            //最大值，则直接在尾部插入，这样子也免去了下面超长while的遍历过程，从而节省时间
+            if(head->val > maxElement && last){
+                //直接在最后位置插入
+                ListNode* tmp = new ListNode(head->val);
+                last->next = tmp;
+                last = tmp;
+                maxElement = head->val;
+                head = head->next;
+                continue;
+            }
+            
+            //正常情况，这些值基本都在当前已排好序的链表中间插入，到底插入到哪里，需要遍历查找
+            while(before->next){
+                if(head->val <= before->next->val){
+                    before->next = new ListNode(head->val, before->next);  
+                    break;
+                }
+                before = before->next;
+            }
+            
+            //说明上述while循环遍历到排好序链表的最后，则记录last指针，并且记录最大值
+            if(before->next == nullptr){
+                last = new ListNode(head->val);
+                before->next = last;
+                maxElement = head->val;
+                 
+            }
+                
+            head = head->next;
+        }
+        return dummy->next;
+    }
+};

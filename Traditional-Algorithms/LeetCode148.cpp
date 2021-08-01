@@ -1,3 +1,4 @@
+//解法一： 作弊解法，空间复杂度为O(n)， 时间复杂度为O(nlogn)，AC
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -85,6 +86,73 @@ public:
                 
             }
             current = current->next;
+        }
+        return dummy->next;
+    }
+};
+
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+
+// 插入排序，时间复杂度为O(n^2)，空间复杂度为O(1)，AC，AC的原因是对两种情况做了插入优化：（1）直接在头部插入（第119行）；（2）直接在尾部插入（第128行）。
+class Solution {
+public:
+    ListNode* before;//从头遍历找到合适的位置
+    ListNode* last;  //记录最后一个指针
+    int maxElement;  //记录一下最大值
+    ListNode* sortList(ListNode* head) {
+        if(head == nullptr) return nullptr;  
+        ListNode* dummy = new ListNode(INT_MIN, new ListNode(head->val)); //结果链表
+        head = head->next;
+        while(head){
+            before = dummy;
+            
+            //直接在头部插入
+            if(head->val <= dummy->next->val){
+                ListNode* tmp = new ListNode(head->val, dummy->next);
+                dummy->next = tmp;
+                head = head->next;
+                continue;
+            }
+            
+            //浪费一些空间记录尾部指针，并且用max记录当前的最大值，如果新插入值head->val大于当前
+            //最大值，则直接在尾部插入，这样子也免去了下面超长while的遍历过程，从而节省时间
+            if(head->val > maxElement && last){
+                //直接在最后位置插入
+                ListNode* tmp = new ListNode(head->val);
+                last->next = tmp;
+                last = tmp;
+                maxElement = head->val;
+                head = head->next;
+                continue;
+            }
+            
+            //正常情况，这些值基本都在当前已排好序的链表中间插入，到底插入到哪里，需要遍历查找
+            while(before->next){
+                if(head->val <= before->next->val){
+                    before->next = new ListNode(head->val, before->next);  
+                    break;
+                }
+                before = before->next;
+            }
+            
+            //说明上述while循环遍历到排好序链表的最后，则记录last指针，并且记录最大值
+            if(before->next == nullptr){
+                last = new ListNode(head->val);
+                before->next = last;
+                maxElement = head->val;
+                 
+            }
+                
+            head = head->next;
         }
         return dummy->next;
     }
