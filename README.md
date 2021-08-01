@@ -244,6 +244,8 @@
     	* [LeetCode83.cpp Remove Duplicates from Sorted List AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode83.cpp)
 		    * [LeetCode82.cpp Remove Duplicates from Sorted List II AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode82.cpp)
 		* [LeetCode707.cpp Design Linked List AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode707.cpp)
+    	* [LeetCode1721.cpp Swapping Nodes in a Linked List AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode1721.cpp)
+    	* [LeetCode160.cpp Intersection of Two Linked Lists AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode160.cpp)
     	* <span id=lrufu>LRU/LFU</span>
     		* [LeetCode146.cpp LRU Cache](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode146.cpp)
     * stack
