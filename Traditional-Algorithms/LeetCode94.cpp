@@ -11,24 +11,20 @@
 class Solution {
 public:
     vector<int> inorderTraversal(TreeNode* root) {
-        TreeNode* current = root;
+        if(root == nullptr) return {};
+        
         vector<int> ans;
         vector<int> ans_left;
-        if(current == nullptr){
-            return {};
-        }
-        if(current->left != nullptr){
-            ans_left = inorderTraversal(current->left);
-        }
         
-        ans.push_back(current->val);
-        ans_left.insert(ans_left.end(), ans.begin(),ans.end());
+        if(root->left != nullptr) ans_left = inorderTraversal(root->left);
+        ans.insert(ans.end(), ans_left.begin(), ans_left.end());   // 插入左孩子
+        ans.push_back(root->val);  //插入根节点
+        
         vector<int> ans_right;
-        if(current->right != nullptr){
-             ans_right = inorderTraversal(current->right);
-        }
-        ans_left.insert(ans_left.end(), ans_right.begin(), ans_right.end());
-        return ans_left;
+        if(root->right != nullptr) ans_right = inorderTraversal(root->right);
+        ans.insert(ans.end(), ans_right.begin(), ans_right.end()); //插入右孩子
+        
+        return ans;
     }
 };
 
