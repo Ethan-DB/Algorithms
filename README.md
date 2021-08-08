@@ -247,7 +247,8 @@
         * [LeetCode1721.cpp Swapping Nodes in a Linked List AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode1721.cpp)
         * [LeetCode160.cpp Intersection of Two Linked Lists AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode160.cpp)
         * <span id=lrufu>LRU/LFU</span>
-        	* [LeetCode146.cpp LRU Cache](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode146.cpp)
+        	* [LeetCode146.cpp LRU Cache AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode146.cpp)
+		* [LeetCode1290.cpp Convert Binary Number in a Linked List to Integer AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode1290.cpp)
     * stack
       * [SimulateStack.cpp](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/SimulateStack.cpp)
       * [LeetCode20.cpp Valid Parentheses AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode20.cpp)
@@ -304,6 +305,7 @@
     * [LeetCode226.cpp Invert Binary Tree AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode226.cpp)
     * [LeetCode637.cpp Average of Levels in Binary Tree AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode637.cpp)
     * [LeetCode429.cpp N-ary Tree Level Order Traversal AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode429.cpp)
+	* [LeetCode404.cpp Sum of Left Leaves AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode404.cpp)
     * [LeetCode1305.cpp All Elements in Two Binary Search Trees AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode1305.cpp)
     * [LeetCode1302.cpp Deepest Leaves Sum AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode1302.cpp)
     * [LeetCode100.cpp Same Tree AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode100.cpp)
