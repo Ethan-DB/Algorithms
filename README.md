@@ -246,6 +246,7 @@
         * [LeetCode707.cpp Design Linked List AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode707.cpp)
         * [LeetCode1721.cpp Swapping Nodes in a Linked List AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode1721.cpp)
         * [LeetCode160.cpp Intersection of Two Linked Lists AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode160.cpp)
+		* [LeetCode543.cpp Diameter of Binary Tree AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode543.cpp)
         * <span id=lrufu>LRU/LFU</span>
         	* [LeetCode146.cpp LRU Cache AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode146.cpp)
 		* [LeetCode1290.cpp Convert Binary Number in a Linked List to Integer AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode1290.cpp)
