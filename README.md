@@ -300,6 +300,7 @@
 * <span id=t>BFS and DFS of Tree，including Binary Search Tree, Binary Tree and N-ary Tree</span>
     * [LeetCode701.cpp Insert into a Binary Search Tree  AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode701.cpp)
     * [LeetCode102.cpp Binary Tree Level Order Traversal  AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode102.cpp)
+	* [LeetCode662.cpp Maximum Width of Binary Tree AC]((https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode662.cpp))
     * [LeetCode107.cpp Binary Tree Level Order Traversal II AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode107.cpp)
     * [LeetCode116.cpp Populating Next Right Pointers in Each Node AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode116.cpp)
     * [LeetCode117.cpp Populating Next Right Pointers in Each Node II AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode117.cpp)
