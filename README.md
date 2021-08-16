@@ -305,6 +305,7 @@
     * [LeetCode116.cpp Populating Next Right Pointers in Each Node AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode116.cpp)
     * [LeetCode117.cpp Populating Next Right Pointers in Each Node II AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode117.cpp)
     * [LeetCode226.cpp Invert Binary Tree AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode226.cpp)
+	* [LeetCode958.cpp Check Completeness of a Binary Tree AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode958.cpp)
     * [LeetCode637.cpp Average of Levels in Binary Tree AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode637.cpp)
     * [LeetCode429.cpp N-ary Tree Level Order Traversal AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode429.cpp)
 	* [LeetCode404.cpp Sum of Left Leaves AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode404.cpp)
