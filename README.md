@@ -250,6 +250,7 @@
         * <span id=lrufu>LRU/LFU</span>
         	* [LeetCode146.cpp LRU Cache AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode146.cpp)
 		* [LeetCode1290.cpp Convert Binary Number in a Linked List to Integer AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode1290.cpp)
+		* [LeetCode328.cpp Odd Even Linked List AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode328.cpp)
     * stack
       * [SimulateStack.cpp](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/SimulateStack.cpp)
       * [LeetCode20.cpp Valid Parentheses AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode20.cpp)
