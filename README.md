@@ -302,12 +302,18 @@
 	* In-order travel
 		* [LeetCode94.cpp Binary Tree Inorder Traversal AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode94.cpp)
 		* BST
+			* BST basic operations
+				* [LeetCode701.cpp Insert into a Binary Search Tree  AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode701.cpp)
+				* [LeetCode450.cpp Delete Node in a BST  AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode450.cpp)
+				* [LeetCode700.cpp Search in a Binary Search Tree AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode700.cpp)
 			* [LeetCode230.cpp Kth Smallest Element in a BST AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode230.cpp)
 			* [LeetCode653.cpp Two Sum IV - Input is a BST AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode653.cpp)
 			* [LeetCode938.cpp Range Sum of BST AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode938.cpp)
 			* [LeetCode173.cpp Binary Search Tree Iterator AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode173.cpp)
 			* [LeetCode530.cpp Minimum Absolute Difference in BST  AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode530.cpp)
 			* [LeetCode783.cpp Minimum Distance Between BST Nodes  AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode783.cpp)
+			* [LeetCode501.cpp Find Mode in Binary Search Tree  AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode501.cpp)
+			* [LeetCode99.cpp Recover Binary Search Tree  AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode99.cpp)
 	* pre-order travel
 		* [LeetCode257.cpp Binary Tree Paths AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode257.cpp)
 		* [LeetCode129.cpp Sum Root to Leaf Numbers AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode129.cpp)
@@ -339,7 +345,6 @@
 		* [LeetCode515.cpp Find Largest Value in Each Tree Row AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode515.cpp)
 		* [leetCode103.cpp Binary Tree Zigzag Level Order Traversal AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode103.cpp)
 	* recursion
-		* [LeetCode701.cpp Insert into a Binary Search Tree  AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode701.cpp)
 		* [LeetCode226.cpp Invert Binary Tree AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode226.cpp)
 		* [LeetCode404.cpp Sum of Left Leaves AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode404.cpp)
 		* [LeetCode1305.cpp All Elements in Two Binary Search Trees AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode1305.cpp)
@@ -348,7 +353,6 @@
 		* [LeetCode114.cpp Flatten Binary Tree to Linked List AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode114.cpp)
 		* [LeetCode101.cpp Symmetric Tree AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode101.cpp)
 		* [LeetCode872.cpp Leaf-Similar Trees AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode872.cpp)
-		* [LeetCode700.cpp Search in a Binary Search Tree AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode700.cpp)
 		* [LeetCode110.cpp Balanced Binary Tree  AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode110.cpp)
 	* Construction Tree
     	* [LeetCode108.cpp Convert Sorted Array to Binary Search Tree  AC](https://github.com/JunpengCode/Algorithms/blob/master/Traditional-Algorithms/LeetCode108.cpp)
