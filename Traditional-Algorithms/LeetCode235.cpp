@@ -82,6 +82,7 @@ public:
 
 // 该解法对于任意二叉树都能正确运行，DFS找出每个点的遍历结果，放入到vector中，然后将其中一个点的遍历结果放入到hash表中，
 // 从右向左搜索另外一个结果，比较在hash表中是否存在相同的值，返回即可
+// 235和236题目通用化方法
 class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
@@ -116,4 +117,58 @@ public:
         if(!visited) res.pop();
         return visited;
     }
+};
+
+
+
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ * };
+ */
+
+// DFS找出每个点的遍历结果，放入到vector中，然后将其中一个点的遍历结果放入到hash表中，
+// 从右向左搜索另外一个结果，比较在hash表中是否存在相同的值，返回即可
+// 235和236题目通用化方法
+class Solution {
+    unordered_map<TreeNode*, TreeNode*>m;
+public:
+    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+        bfs(root);
+        m[root] = nullptr;   // 首先设置根节点的父亲为nullptr
+        // 查询到p的路径（从p到根节点）
+        vector<TreeNode*> resPath;
+        while(m.find(p) != m.end()){
+            resPath.push_back(p);
+            p = m[p];
+        }
+        // Q的路径应该放到一个unordered_map中
+        unordered_map<TreeNode*, bool> mq;
+        while(m.find(q) != m.end()){
+            mq[q] = true;
+            q = m[q];
+        }
+        // 然后遍历resPath，看有没有包含q的路径
+        for(auto& u: resPath){
+            // 对于从p到根节点的路径，拿出每一个，都要判断Q的路径中是否包含这个节点（如何在O(1)时间内快速判断呢？）
+            if(mq.find(u) != mq.end()){
+                return u;
+            }
+        }
+        return nullptr;
+    }
+    
+    void bfs(TreeNode* root){
+        if(!root) return;
+        if(root->left) m[root->left] = root;
+        if(root->right) m[root->right] = root;
+        bfs(root->left);
+        bfs(root->right);
+        return;
+    }
+    
 };
